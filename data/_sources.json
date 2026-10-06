@@ -1,0 +1,555 @@
+{
+  "scrapedAt": "2026-10-06T10:45:06.281Z",
+  "live": true,
+  "base": "https://fatdogsofdelhi.wedevit.in",
+  "mapEndpoint": "https://fatdogsofdelhi-dogs.basithladoo.workers.dev/dogs",
+  "mapEndpointDiscovery": "Read from the main JS bundle (workers.dev URL); paginated with ?before=<created_at>",
+  "sources": [
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/",
+      "fetchedAt": "2026-10-06T10:43:42.798Z",
+      "note": "homepage: headline, #public-data analytics, bundle URL"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/assets/index-BSOuui8v.js",
+      "fetchedAt": "2026-10-06T10:43:42.852Z",
+      "note": "main JS bundle: dogs, matches, tournament config"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/analytics",
+      "fetchedAt": "2026-10-06T10:43:43.208Z",
+      "note": "champion-pick counts (fresh)"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/leaderboard",
+      "fetchedAt": "2026-10-06T10:43:43.251Z",
+      "note": "pre-rendered leaderboard: display ranks incl. ties"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions",
+      "fetchedAt": "2026-10-06T10:43:43.461Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTEwLTAzVDE1OjMxOjAwLjA5N1oiLCJpLmcuaGFkZXMiXQ",
+      "fetchedAt": "2026-10-06T10:43:44.436Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTEwLTAyVDAzOjE5OjU3LjEwNloiLCJtYXN0aWtob3JtYW55YWEiXQ",
+      "fetchedAt": "2026-10-06T10:43:45.227Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTEwLTAxVDE0OjUxOjIwLjQ2NVoiLCJoaXRlbm4wOSJd",
+      "fetchedAt": "2026-10-06T10:43:45.997Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTEwLTAxVDA5OjU0OjA0LjE1OVoiLCJhZGl0eWExOC54diJd",
+      "fetchedAt": "2026-10-06T10:43:46.769Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTEwLTAxVDAzOjQyOjMwLjU3N1oiLCJuYW1lLml0LmNoaGVkYSJd",
+      "fetchedAt": "2026-10-06T10:43:47.485Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTMwVDE3OjEzOjI3LjM3MloiLCJyYWdoYXYubmF5YXIiXQ",
+      "fetchedAt": "2026-10-06T10:43:48.213Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTMwVDE0OjAyOjM1Ljg2NloiLCJuaWdnYW1lZXRfIl0",
+      "fetchedAt": "2026-10-06T10:43:48.950Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTMwVDExOjIzOjUxLjUyOFoiLCJfZGV4b3kiXQ",
+      "fetchedAt": "2026-10-06T10:43:49.677Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTMwVDA5OjA4OjE5LjgyMFoiLCJqamFzZDI0MDIxMiJd",
+      "fetchedAt": "2026-10-06T10:43:50.395Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTMwVDA2OjA5OjAxLjcyM1oiLCJuZWVsX3phbWJyZSJd",
+      "fetchedAt": "2026-10-06T10:43:51.125Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTMwVDAzOjA2OjE5LjU5MFoiLCJzdW1pdF9jOV8iXQ",
+      "fetchedAt": "2026-10-06T10:43:51.849Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI5VDE5OjI2OjUzLjU0OFoiLCJhdGh1bGVleV8iXQ",
+      "fetchedAt": "2026-10-06T10:43:52.590Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI5VDE3OjUxOjMwLjc2NloiLCJwcmFuYXlfXzEzMDkiXQ",
+      "fetchedAt": "2026-10-06T10:43:53.305Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI5VDE2OjE2OjIzLjE5NFoiLCJhc21paWFyeWFhIl0",
+      "fetchedAt": "2026-10-06T10:43:53.615Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI5VDE0OjU2OjM3Ljk0N1oiLCJ0aGV5Y2FsbG1lbWFhcmk1MCJd",
+      "fetchedAt": "2026-10-06T10:43:53.928Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI5VDEyOjQxOjE1LjQ2MloiLCJuaW1pdC5kYXMiXQ",
+      "fetchedAt": "2026-10-06T10:43:54.238Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI5VDExOjA3OjQwLjg0NloiLCJhYWRpdHlhYmhhbmRhcmk0MiJd",
+      "fetchedAt": "2026-10-06T10:43:55.061Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI5VDEwOjI1OjA1LjQ0NFoiLCJzaGFiYWR0aGVzb3JjZXJlciJd",
+      "fetchedAt": "2026-10-06T10:43:55.881Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI5VDA5OjI5OjQxLjUzMFoiLCJhcnlhYWFhLm1wNCJd",
+      "fetchedAt": "2026-10-06T10:43:56.603Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI5VDA4OjI3OjAzLjM2MFoiLCJhcmp1bm5tb3JlLjAxOCJd",
+      "fetchedAt": "2026-10-06T10:43:57.320Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI5VDA3OjA4OjEzLjQyMloiLCJhcnBpdF8uMTA4Il0",
+      "fetchedAt": "2026-10-06T10:43:58.045Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI5VDA1OjM5OjEwLjk2OFoiLCJzaGl2YW5zaGlpX2lpaSJd",
+      "fetchedAt": "2026-10-06T10:43:58.753Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI5VDAzOjI3OjUyLjE3N1oiLCJnb3JnZW91c19tZXNzX18xNyJd",
+      "fetchedAt": "2026-10-06T10:43:59.463Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI4VDIwOjA3OjQ0LjMxNloiLCJzYWtzaGkudGhhcGxpeWFsXyJd",
+      "fetchedAt": "2026-10-06T10:44:00.177Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI4VDE4OjQ2OjU3LjA1OFoiLCJwaXhpZV8ycyJd",
+      "fetchedAt": "2026-10-06T10:44:00.897Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI4VDE4OjA0OjM2LjM2MloiLCJkZWV2dXV1dS5fIl0",
+      "fetchedAt": "2026-10-06T10:44:01.600Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI4VDE2OjQ2OjU5LjgxN1oiLCJzaG9tdGhlc2hlZXAiXQ",
+      "fetchedAt": "2026-10-06T10:44:01.904Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI4VDE2OjAxOjM1LjYwNVoiLCJhcm9yYW1lZ2huYWEiXQ",
+      "fetchedAt": "2026-10-06T10:44:02.630Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI4VDE0OjUxOjQzLjU1NFoiLCJhYXRtYW5fMDIxMiJd",
+      "fetchedAt": "2026-10-06T10:44:03.340Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI4VDEzOjU1OjI4LjIxOFoiLCJoYXdhX25pX21pdHIiXQ",
+      "fetchedAt": "2026-10-06T10:44:04.072Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI4VDEzOjAxOjE1Ljk3MFoiLCJzaGFyYW4uXy5tYWxob3RyYSJd",
+      "fetchedAt": "2026-10-06T10:44:04.779Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI4VDExOjIwOjA3LjA5N1oiLCJhamF5eS5wYXRpbGwiXQ",
+      "fetchedAt": "2026-10-06T10:44:05.607Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI4VDA4OjIxOjE1Ljc2NVoiLCJjaGFydmlya2l2ZXMiXQ",
+      "fetchedAt": "2026-10-06T10:44:06.307Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI4VDA0OjEyOjE1LjA5MVoiLCI0c2lmZXkiXQ",
+      "fetchedAt": "2026-10-06T10:44:06.620Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDIwOjExOjI4LjY3MFoiLCJfX25paGFydV9fc2hpbl8iXQ",
+      "fetchedAt": "2026-10-06T10:44:07.378Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDE3OjQzOjA3LjczMloiLCJqYWhudmlwdCJd",
+      "fetchedAt": "2026-10-06T10:44:08.106Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDE2OjQyOjQ1LjY5MloiLCJhcmluZG9tLmIiXQ",
+      "fetchedAt": "2026-10-06T10:44:08.885Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDE1OjA4OjAxLjM4OVoiLCJvbWt3bnQyOTczIl0",
+      "fetchedAt": "2026-10-06T10:44:09.604Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDE0OjEyOjE5LjY0N1oiLCJrYXJ0aGlrcGFpMTgwMyJd",
+      "fetchedAt": "2026-10-06T10:44:10.342Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDEyOjU4OjQ3LjQ1MFoiLCJpbmVlZHdhdGVyXzA5Il0",
+      "fetchedAt": "2026-10-06T10:44:11.137Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDExOjM1OjIyLjY0NloiLCJ3enpfc25laGFhIl0",
+      "fetchedAt": "2026-10-06T10:44:11.850Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDEwOjM5OjU3LjQ0NFoiLCJfY2FyZXN0aGV0aWNzXyJd",
+      "fetchedAt": "2026-10-06T10:44:12.561Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDA5OjQ2OjUyLjU3M1oiLCJfbW9oaXRoMDZfIl0",
+      "fetchedAt": "2026-10-06T10:44:13.251Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDA5OjE2OjEzLjg1OFoiLCJhdXJvcmFpbnRoZXNreV94eCJd",
+      "fetchedAt": "2026-10-06T10:44:13.563Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDA4OjMzOjUxLjYxNFoiLCJhbWFuX2FjaGFyeWEiXQ",
+      "fetchedAt": "2026-10-06T10:44:13.866Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDA3OjUxOjMzLjY2OFoiLCJlbGlhZGEyMDI1Il0",
+      "fetchedAt": "2026-10-06T10:44:14.622Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDA2OjUyOjIyLjkwNVoiLCJuYXJlbmRlcjU1MjAiXQ",
+      "fetchedAt": "2026-10-06T10:44:15.329Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDA2OjA0OjE3LjE5NVoiLCJ0YW52aV8xcyJd",
+      "fetchedAt": "2026-10-06T10:44:16.034Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDA1OjA2OjU1Ljk1MVoiLCJpbmNyZWRpYmVsaXRhIl0",
+      "fetchedAt": "2026-10-06T10:44:16.739Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI3VDAzOjI5OjU5LjU3M1oiLCJzcmlzaHRpX2FydGxpZmUiXQ",
+      "fetchedAt": "2026-10-06T10:44:17.457Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDIyOjMyOjAzLjA2N1oiLCJ2aXNreV85NCJd",
+      "fetchedAt": "2026-10-06T10:44:18.185Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDIwOjA4OjQzLjM5OVoiLCJrYWFmaXVuZnVubnkiXQ",
+      "fetchedAt": "2026-10-06T10:44:18.916Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDE4OjMwOjQwLjI4MVoiLCJmcnJ2YXN1dXV1Il0",
+      "fetchedAt": "2026-10-06T10:44:19.624Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDE3OjUzOjU5LjcxM1oiLCJ3YWxsZmxvd2VyMjU2Il0",
+      "fetchedAt": "2026-10-06T10:44:20.335Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDE3OjAzOjEzLjkyOFoiLCJpbnNhbml5YW5hIl0",
+      "fetchedAt": "2026-10-06T10:44:21.047Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDE2OjE5OjExLjEyOFoiLCJzaGEuc2hhaC5zaGFoYSJd",
+      "fetchedAt": "2026-10-06T10:44:21.764Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDE1OjEyOjIyLjcyNVoiLCJhYXJ5YW5iYW5rYV8iXQ",
+      "fetchedAt": "2026-10-06T10:44:22.486Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDE0OjI2OjIzLjc5M1oiLCJzaGl2YW1fZ29kaHdhbmkiXQ",
+      "fetchedAt": "2026-10-06T10:44:23.192Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDEzOjEyOjM2LjM1NVoiLCJuYW5kaW5pXzA2MDMiXQ",
+      "fetchedAt": "2026-10-06T10:44:23.897Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDEyOjAyOjA2LjI5OFoiLCJpc2hpdGFzaGFybWEiXQ",
+      "fetchedAt": "2026-10-06T10:44:24.607Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDExOjA2OjI1LjgwNloiLCJjaW5uYWJvbl9wdnQiXQ",
+      "fetchedAt": "2026-10-06T10:44:25.360Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDEwOjE5OjEwLjUwMVoiLCJ0aGF0b3ZlcmRyZXNzZWRndXkiXQ",
+      "fetchedAt": "2026-10-06T10:44:26.072Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDA5OjI4OjQ4LjkzOFoiLCJuYW1hbnNoYXJtYXZlcyJd",
+      "fetchedAt": "2026-10-06T10:44:26.787Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDA4OjUxOjEzLjc4OFoiLCJjaHVwa2FyLmNob3R1Il0",
+      "fetchedAt": "2026-10-06T10:44:27.495Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDA4OjE0OjIyLjEyOVoiLCJwcml0aHZpY2hhdWhhbiJd",
+      "fetchedAt": "2026-10-06T10:44:28.212Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDA3OjM1OjQzLjc5NFoiLCJrYXJhbm5uX18wMSJd",
+      "fetchedAt": "2026-10-06T10:44:28.921Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDA2OjQ3OjI3LjM1MFoiLCJ5ZWR1c2F1cnVkIl0",
+      "fetchedAt": "2026-10-06T10:44:29.634Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDA2OjA0OjA2LjU2OFoiLCJ2aXBhYXNoYWEiXQ",
+      "fetchedAt": "2026-10-06T10:44:30.386Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDA0OjQ5OjQxLjc4NVoiLCJzaGFyYWRqb3NoaTE5ODkiXQ",
+      "fetchedAt": "2026-10-06T10:44:31.069Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI2VDAzOjExOjQzLjg4NFoiLCJtaXN0aWdldHNteXN0aWZpZWQiXQ",
+      "fetchedAt": "2026-10-06T10:44:31.768Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDIxOjMyOjA0LjAxMFoiLCJ2Il0",
+      "fetchedAt": "2026-10-06T10:44:32.071Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDE5OjAwOjUwLjIyNFoiLCJhbW11dHR5XzE1MDQiXQ",
+      "fetchedAt": "2026-10-06T10:44:32.770Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDE3OjE3OjM2LjIzNFoiLCJzYWF0dmlrLnJhanB1dCJd",
+      "fetchedAt": "2026-10-06T10:44:33.073Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDE2OjM0OjM1LjMzN1oiLCJydXVoYWFhbmlpaWkiXQ",
+      "fetchedAt": "2026-10-06T10:44:33.763Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDE1OjIwOjUwLjQ5MVoiLCJwcml5YW5rYSJd",
+      "fetchedAt": "2026-10-06T10:44:34.479Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDE0OjQyOjI0LjIxM1oiLCJfbG9oaWEyIl0",
+      "fetchedAt": "2026-10-06T10:44:34.788Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDEzOjM1OjIzLjc4NVoiLCJsb3N0aW5kb3JtaXZlZ2xpYSJd",
+      "fetchedAt": "2026-10-06T10:44:35.521Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDExOjU1OjE3LjYyOFoiLCJkX2FuYW55YSJd",
+      "fetchedAt": "2026-10-06T10:44:35.815Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDEwOjQyOjAwLjM5MVoiLCJhbnUud2F5X2FudS5ob3ciXQ",
+      "fetchedAt": "2026-10-06T10:44:36.097Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDEwOjE3OjI3LjAzMVoiLCJtaWRuaWdoX3RfcmVhZHMiXQ",
+      "fetchedAt": "2026-10-06T10:44:36.401Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDEwOjA0OjAxLjkzMFoiLCJtYWxhdmlrYS5hYSJd",
+      "fetchedAt": "2026-10-06T10:44:36.707Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA5OjQzOjIxLjc1NloiLCJ6YTl4cmEiXQ",
+      "fetchedAt": "2026-10-06T10:44:37.021Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA5OjI0OjQwLjg5OVoiLCJhc2VlbV9qMjQiXQ",
+      "fetchedAt": "2026-10-06T10:44:37.322Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA5OjA4OjEyLjM1M1oiLCJsdWd1YnJpb3VzMTEwOCJd",
+      "fetchedAt": "2026-10-06T10:44:38.028Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA4OjUyOjA5LjM3NFoiLCJ2aXNod2FqZWV0bmlzaGFkXyJd",
+      "fetchedAt": "2026-10-06T10:44:38.746Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA4OjM5OjUzLjgyOVoiLCJzaHViaGFtamFpbl8yNDA2Il0",
+      "fetchedAt": "2026-10-06T10:44:39.603Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA4OjI2OjM5LjI0NloiLCJfLnNhYW52aWkuc2hhcm1hIl0",
+      "fetchedAt": "2026-10-06T10:44:40.326Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA4OjEyOjM0LjQ5NFoiLCJtYW5zaWlhZ2Fyd2FsbCJd",
+      "fetchedAt": "2026-10-06T10:44:41.037Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA3OjU4OjUxLjQxN1oiLCJpbGlrZWNhdHNvam8iXQ",
+      "fetchedAt": "2026-10-06T10:44:41.731Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA3OjQ1OjI5LjM2NVoiLCJiYW50YWNvY28iXQ",
+      "fetchedAt": "2026-10-06T10:44:42.439Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA3OjI5OjQ1LjU3NVoiLCJub3RjaGFyaXRoYSJd",
+      "fetchedAt": "2026-10-06T10:44:43.155Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA3OjA3OjA0LjcyM1oiLCJhbmt1cl9yb3RoYW4iXQ",
+      "fetchedAt": "2026-10-06T10:44:43.863Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA2OjQ4OjUyLjQ0OFoiLCJhZGFzYm9oZW1lIl0",
+      "fetchedAt": "2026-10-06T10:44:44.574Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA2OjMzOjE3LjM4NFoiLCJzYW5pZWRpYXJ5Il0",
+      "fetchedAt": "2026-10-06T10:44:45.284Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA2OjE4OjE1LjE5MloiLCJpaWsiXQ",
+      "fetchedAt": "2026-10-06T10:44:45.993Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA1OjU2OjM5LjM5MFoiLCJqdXN0YWJhcmQuXyJd",
+      "fetchedAt": "2026-10-06T10:44:46.716Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA1OjIwOjU3LjY2N1oiLCJtaWdodHltZWVlZWVlIl0",
+      "fetchedAt": "2026-10-06T10:44:47.428Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDA0OjQ5OjU2LjUwM1oiLCJhdGlzaF9yYWplc2giXQ",
+      "fetchedAt": "2026-10-06T10:44:48.139Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDAzOjU5OjA3LjMyMloiLCJkZXYuM2RwIl0",
+      "fetchedAt": "2026-10-06T10:44:48.844Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDAzOjE3OjE0LjM3N1oiLCJwcm9mZXNzb3JtYXRhaGFyaSJd",
+      "fetchedAt": "2026-10-06T10:44:49.579Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDAyOjI3OjI1LjY4M1oiLCJkZXZ1Il0",
+      "fetchedAt": "2026-10-06T10:44:50.271Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI1VDAwOjUxOjU1Ljg2NloiLCJ1ZGRpcGFubW9uZGFsIl0",
+      "fetchedAt": "2026-10-06T10:44:51.071Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDIyOjA4OjM3LjgyMVoiLCJha2Fyc2hfX3NhYXJzYXIiXQ",
+      "fetchedAt": "2026-10-06T10:44:51.791Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDIwOjM2OjI1LjAxNloiLCJ5ZTByZW0iXQ",
+      "fetchedAt": "2026-10-06T10:44:52.506Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDIwOjAzOjE1Ljc0MFoiLCJ2ZWQiXQ",
+      "fetchedAt": "2026-10-06T10:44:53.222Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDE5OjQzOjI3LjE3MloiLCIwbmx5cnl1Ll8iXQ",
+      "fetchedAt": "2026-10-06T10:44:53.935Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDE5OjIxOjU0LjkzOFoiLCJzb3VoYW1fbWlzaHJhIl0",
+      "fetchedAt": "2026-10-06T10:44:54.645Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDE4OjUwOjQ4LjQzMFoiLCJjaXJjdW1jaXNlZHNuYWNrIl0",
+      "fetchedAt": "2026-10-06T10:44:55.358Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDE4OjM1OjIzLjkxN1oiLCJpYW50cm9weXkiXQ",
+      "fetchedAt": "2026-10-06T10:44:56.196Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDE4OjIwOjA1Ljg2NVoiLCJfYW51c2hreGEuXyJd",
+      "fetchedAt": "2026-10-06T10:44:56.904Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDE4OjAyOjE1LjA2NloiLCJ2b2lkX19fX3dhbGtlciJd",
+      "fetchedAt": "2026-10-06T10:44:57.618Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDE3OjQ2OjQ2LjM0OVoiLCJyZXloYW5ua2hubiJd",
+      "fetchedAt": "2026-10-06T10:44:58.343Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDE3OjMzOjQ2LjMxOFoiLCJzd2F0aXNhaWR3aGF0Il0",
+      "fetchedAt": "2026-10-06T10:44:59.100Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDE3OjIxOjE3Ljg5MloiLCJrc2hpdGlqazA2Il0",
+      "fetchedAt": "2026-10-06T10:44:59.816Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDE3OjA5OjUxLjkwMVoiLCJjb2tlcGlsbGVkXyJd",
+      "fetchedAt": "2026-10-06T10:45:00.698Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDE2OjU0OjQ4Ljc2NloiLCJkaXZzaW5naF8iXQ",
+      "fetchedAt": "2026-10-06T10:45:01.406Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDE2OjQ0OjQyLjkxMFoiLCJiaGxwdXJpIl0",
+      "fetchedAt": "2026-10-06T10:45:02.235Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=WyIyMDI2LTA5LTI0VDEzOjIwOjI5LjE5MFoiLCJycGl0XzEyMTciXQ",
+      "fetchedAt": "2026-10-06T10:45:02.955Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/api/predictions?cursor=…",
+      "fetchedAt": "2026-10-06T10:45:03.076Z",
+      "note": "119 pages"
+    },
+    {
+      "url": "https://fatdogsofdelhi.wedevit.in/assets/prediction-standings-D5ktNXvU.js",
+      "fetchedAt": "2026-10-06T10:45:03.111Z",
+      "note": "prediction leaderboard standings chunk"
+    },
+    {
+      "url": "https://fatdogsofdelhi-dogs.basithladoo.workers.dev/dogs",
+      "fetchedAt": "2026-10-06T10:45:03.681Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi-dogs.basithladoo.workers.dev/dogs?before=1790932520807",
+      "fetchedAt": "2026-10-06T10:45:04.032Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi-dogs.basithladoo.workers.dev/dogs?before=1790762060183",
+      "fetchedAt": "2026-10-06T10:45:04.348Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi-dogs.basithladoo.workers.dev/dogs?before=1790687839719",
+      "fetchedAt": "2026-10-06T10:45:04.660Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi-dogs.basithladoo.workers.dev/dogs?before=1790619334003",
+      "fetchedAt": "2026-10-06T10:45:04.978Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi-dogs.basithladoo.workers.dev/dogs?before=1790585517521",
+      "fetchedAt": "2026-10-06T10:45:05.285Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi-dogs.basithladoo.workers.dev/dogs?before=1790528283512",
+      "fetchedAt": "2026-10-06T10:45:05.621Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi-dogs.basithladoo.workers.dev/dogs?before=1790501026170",
+      "fetchedAt": "2026-10-06T10:45:05.929Z"
+    },
+    {
+      "url": "https://fatdogsofdelhi-dogs.basithladoo.workers.dev/dogs?before=…",
+      "fetchedAt": "2026-10-06T10:45:06.051Z",
+      "note": "map pins endpoint"
+    }
+  ],
+  "warnings": [
+    "No coordinates for area \"Hamayampur\"; it will be left off the map"
+  ]
+}

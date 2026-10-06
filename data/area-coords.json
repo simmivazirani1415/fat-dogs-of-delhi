@@ -1,0 +1,208 @@
+{
+  "LSR, Lajpat Nagar": {
+    "lat": 28.5599264,
+    "lng": 77.2380514,
+    "query": "LSR, Lajpat Nagar, Delhi"
+  },
+  "Miranda, North Campus": {
+    "lat": 28.6926127,
+    "lng": 77.2100582,
+    "query": "Miranda, North Campus, Delhi"
+  },
+  "South Campus": {
+    "lat": 28.5850634,
+    "lng": 77.1628411,
+    "query": "South Campus, Delhi"
+  },
+  "Saket": {
+    "lat": 28.521168,
+    "lng": 77.2022237,
+    "query": "Saket, Delhi"
+  },
+  "Rohini": {
+    "lat": 28.7063083,
+    "lng": 77.1087892,
+    "query": "Rohini, Delhi"
+  },
+  "Vasant Kunj": {
+    "lat": 28.5292495,
+    "lng": 77.1541335,
+    "query": "Vasant Kunj, Delhi"
+  },
+  "SDA Market, Hauz Khas": {
+    "lat": 28.5462569,
+    "lng": 77.1967987,
+    "query": "SDA Market, Hauz Khas, Delhi"
+  },
+  "Sarojini Nagar Market": {
+    "lat": 28.5769159,
+    "lng": 77.1962566,
+    "query": "Sarojini Nagar Market, Delhi"
+  },
+  "Amar Colony Gurudwara": {
+    "lat": 28.5611382,
+    "lng": 77.2407378,
+    "query": "Amar Colony Gurudwara"
+  },
+  "Amity, Noida": {
+    "lat": 28.5432229,
+    "lng": 77.3327483,
+    "query": "Amity, Noida"
+  },
+  "Kamla Nagar": {
+    "lat": 28.6806752,
+    "lng": 77.2039504,
+    "query": "Kamla Nagar, Delhi"
+  },
+  "Moolchand Metro": {
+    "lat": 28.5597346,
+    "lng": 77.2357914,
+    "query": "Moolchand Metro"
+  },
+  "Mayur Vihar": {
+    "lat": 28.6098555,
+    "lng": 77.2926318,
+    "query": "Mayur Vihar, Delhi"
+  },
+  "Aruna Colony": {
+    "lat": 28.6986766,
+    "lng": 77.2260118,
+    "query": "Aruna Colony, Delhi"
+  },
+  "North Campus": {
+    "lat": 28.689099,
+    "lng": 77.2134707,
+    "query": "North Campus, Delhi"
+  },
+  "Khan Market": {
+    "lat": 28.5995141,
+    "lng": 77.2259785,
+    "query": "Khan Market, Delhi"
+  },
+  "Dwarka": {
+    "lat": 28.6158874,
+    "lng": 77.0224342,
+    "query": "Dwarka, Delhi"
+  },
+  "Hauz Khas": {
+    "lat": 28.5498087,
+    "lng": 77.2077638,
+    "query": "Hauz Khas, Delhi"
+  },
+  "Palam Metro Station": {
+    "lat": 28.5768764,
+    "lng": 77.1115641,
+    "query": "Palam Metro Station"
+  },
+  "Manav Rachna Garden": {
+    "lat": 28.4225252,
+    "lng": 77.0612084,
+    "query": "Manav Rachna Garden"
+  },
+  "East of Kailash": {
+    "lat": 28.5570322,
+    "lng": 77.2446139,
+    "query": "East of Kailash, Delhi"
+  },
+  "Lajpat Metro": {
+    "lat": 28.5705769,
+    "lng": 77.2364799,
+    "query": "Lajpat Metro, Delhi"
+  },
+  "Saini Nagar South": {
+    "lat": 28.5868154,
+    "lng": 77.071597,
+    "query": "Saini Nagar South, Delhi"
+  },
+  "Connaught Place": {
+    "lat": 28.6317695,
+    "lng": 77.2193804,
+    "query": "Connaught Place, Delhi"
+  },
+  "Shanti Niketan": {
+    "lat": 28.5731509,
+    "lng": 77.1644656,
+    "query": "Shanti Niketan, Delhi"
+  },
+  "Naraina": {
+    "lat": 28.6264562,
+    "lng": 77.1349668,
+    "query": "Naraina, Delhi"
+  },
+  "Pitampura": {
+    "lat": 28.7032676,
+    "lng": 77.1322497,
+    "query": "Pitampura, Delhi"
+  },
+  "Defence Colony": {
+    "lat": 28.5713575,
+    "lng": 77.2330402,
+    "query": "Defence Colony, Delhi"
+  },
+  "Green Park": {
+    "lat": 28.5564421,
+    "lng": 77.2038699,
+    "query": "Green Park, Delhi"
+  },
+  "Dwarka Sector 6": {
+    "lat": 28.596794,
+    "lng": 77.0642091,
+    "query": "Dwarka Sector 6, Delhi"
+  },
+  "Malviya Nagar": {
+    "lat": 28.5339201,
+    "lng": 77.2124474,
+    "query": "Malviya Nagar, Delhi"
+  },
+  "Kalkaji": {
+    "lat": 28.5469476,
+    "lng": 77.258801,
+    "query": "Kalkaji, Delhi"
+  },
+  "Govindpuri": {
+    "lat": 28.5351561,
+    "lng": 77.2637936,
+    "query": "Govindpuri, Delhi"
+  },
+  "Lajpat Nagar": {
+    "lat": 28.5660924,
+    "lng": 77.2432851,
+    "query": "Lajpat Nagar, Delhi"
+  },
+  "Vijaynagar, North Campus": {
+    "lat": 28.6965,
+    "lng": 77.2046,
+    "query": "manual: Vijay Nagar, near DU North Campus"
+  },
+  "Noida": {
+    "lat": 28.5706333,
+    "lng": 77.3272147,
+    "query": "Noida, Uttar Pradesh"
+  },
+  "Ghaziabad": {
+    "lat": 28.6692,
+    "lng": 77.4538,
+    "query": "manual: Ghaziabad city centre (Nominatim returns the district)"
+  },
+  "Faridabad": {
+    "lat": 28.4031478,
+    "lng": 77.3105561,
+    "query": "Faridabad, Haryana"
+  },
+  "Meerut": {
+    "lat": 29.0018557,
+    "lng": 77.7679671,
+    "query": "Meerut, Uttar Pradesh"
+  },
+  "GK 2 M-Block Market": {
+    "lat": 28.5502649,
+    "lng": 77.2351121,
+    "query": "M Block Market, Greater Kailash"
+  },
+  "Hamayampur": null,
+  "Gurgaon": {
+    "lat": 28.4646148,
+    "lng": 77.0299194,
+    "query": "Gurugram, Haryana"
+  }
+}

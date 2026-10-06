@@ -1,0 +1,397 @@
+{
+  "publicPredictions": 2833,
+  "updatedLabel": "Updated 3:49 PM · refreshes every 30 minutes",
+  "asOf": "2026-10-06T10:19:45.566061Z",
+  "topContender": {
+    "dogId": "d17a",
+    "count": 1122,
+    "of": 2833,
+    "pct": 39.6
+  },
+  "rows": [
+    {
+      "dogId": "d17a",
+      "rank": 1,
+      "picks": 1122,
+      "pct": 39.6
+    },
+    {
+      "dogId": "d03b",
+      "rank": 2,
+      "picks": 557,
+      "pct": 19.7
+    },
+    {
+      "dogId": "d09b",
+      "rank": 3,
+      "picks": 166,
+      "pct": 5.9
+    },
+    {
+      "dogId": "d06b",
+      "rank": 4,
+      "picks": 112,
+      "pct": 4
+    },
+    {
+      "dogId": "d32a",
+      "rank": 5,
+      "picks": 89,
+      "pct": 3.1
+    },
+    {
+      "dogId": "d04a",
+      "rank": 6,
+      "picks": 79,
+      "pct": 2.8
+    },
+    {
+      "dogId": "d20b",
+      "rank": 7,
+      "picks": 61,
+      "pct": 2.2
+    },
+    {
+      "dogId": "d27a",
+      "rank": 8,
+      "picks": 54,
+      "pct": 1.9
+    },
+    {
+      "dogId": "d01a",
+      "rank": 9,
+      "picks": 53,
+      "pct": 1.9
+    },
+    {
+      "dogId": "d04b",
+      "rank": 10,
+      "picks": 49,
+      "pct": 1.7
+    },
+    {
+      "dogId": "d10b",
+      "rank": 11,
+      "picks": 45,
+      "pct": 1.6
+    },
+    {
+      "dogId": "d13b",
+      "rank": 12,
+      "picks": 32,
+      "pct": 1.1
+    },
+    {
+      "dogId": "d26b",
+      "rank": 12,
+      "picks": 32,
+      "pct": 1.1
+    },
+    {
+      "dogId": "d21b",
+      "rank": 14,
+      "picks": 31,
+      "pct": 1.1
+    },
+    {
+      "dogId": "d25a",
+      "rank": 15,
+      "picks": 27,
+      "pct": 1
+    },
+    {
+      "dogId": "d02b",
+      "rank": 16,
+      "picks": 21,
+      "pct": 0.7
+    },
+    {
+      "dogId": "d21a",
+      "rank": 17,
+      "picks": 19,
+      "pct": 0.7
+    },
+    {
+      "dogId": "d05b",
+      "rank": 18,
+      "picks": 18,
+      "pct": 0.6
+    },
+    {
+      "dogId": "d15a",
+      "rank": 18,
+      "picks": 18,
+      "pct": 0.6
+    },
+    {
+      "dogId": "d16b",
+      "rank": 20,
+      "picks": 17,
+      "pct": 0.6
+    },
+    {
+      "dogId": "d17b",
+      "rank": 20,
+      "picks": 17,
+      "pct": 0.6
+    },
+    {
+      "dogId": "d18b",
+      "rank": 22,
+      "picks": 14,
+      "pct": 0.5
+    },
+    {
+      "dogId": "d32b",
+      "rank": 22,
+      "picks": 14,
+      "pct": 0.5
+    },
+    {
+      "dogId": "d12b",
+      "rank": 24,
+      "picks": 13,
+      "pct": 0.5
+    },
+    {
+      "dogId": "d08a",
+      "rank": 25,
+      "picks": 12,
+      "pct": 0.4
+    },
+    {
+      "dogId": "d11a",
+      "rank": 25,
+      "picks": 12,
+      "pct": 0.4
+    },
+    {
+      "dogId": "d31a",
+      "rank": 27,
+      "picks": 11,
+      "pct": 0.4
+    },
+    {
+      "dogId": "d02a",
+      "rank": 28,
+      "picks": 10,
+      "pct": 0.4
+    },
+    {
+      "dogId": "d07b",
+      "rank": 28,
+      "picks": 10,
+      "pct": 0.4
+    },
+    {
+      "dogId": "d15b",
+      "rank": 28,
+      "picks": 10,
+      "pct": 0.4
+    },
+    {
+      "dogId": "d23b",
+      "rank": 28,
+      "picks": 10,
+      "pct": 0.4
+    },
+    {
+      "dogId": "d18a",
+      "rank": 32,
+      "picks": 8,
+      "pct": 0.3
+    },
+    {
+      "dogId": "d05a",
+      "rank": 33,
+      "picks": 7,
+      "pct": 0.2
+    },
+    {
+      "dogId": "d01b",
+      "rank": 34,
+      "picks": 6,
+      "pct": 0.2
+    },
+    {
+      "dogId": "d19b",
+      "rank": 34,
+      "picks": 6,
+      "pct": 0.2
+    },
+    {
+      "dogId": "d08b",
+      "rank": 36,
+      "picks": 5,
+      "pct": 0.2
+    },
+    {
+      "dogId": "d13a",
+      "rank": 36,
+      "picks": 5,
+      "pct": 0.2
+    },
+    {
+      "dogId": "d07a",
+      "rank": 38,
+      "picks": 4,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d09a",
+      "rank": 38,
+      "picks": 4,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d14b",
+      "rank": 38,
+      "picks": 4,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d28b",
+      "rank": 38,
+      "picks": 4,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d29b",
+      "rank": 38,
+      "picks": 4,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d30b",
+      "rank": 38,
+      "picks": 4,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d31b",
+      "rank": 38,
+      "picks": 4,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d06a",
+      "rank": 45,
+      "picks": 3,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d11b",
+      "rank": 45,
+      "picks": 3,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d14a",
+      "rank": 45,
+      "picks": 3,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d22b",
+      "rank": 45,
+      "picks": 3,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d26a",
+      "rank": 45,
+      "picks": 3,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d30a",
+      "rank": 45,
+      "picks": 3,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d03a",
+      "rank": 51,
+      "picks": 2,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d16a",
+      "rank": 51,
+      "picks": 2,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d20a",
+      "rank": 51,
+      "picks": 2,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d28a",
+      "rank": 51,
+      "picks": 2,
+      "pct": 0.1
+    },
+    {
+      "dogId": "d10a",
+      "rank": 55,
+      "picks": 1,
+      "pct": 0
+    },
+    {
+      "dogId": "d19a",
+      "rank": 55,
+      "picks": 1,
+      "pct": 0
+    },
+    {
+      "dogId": "d23a",
+      "rank": 55,
+      "picks": 1,
+      "pct": 0
+    },
+    {
+      "dogId": "d24a",
+      "rank": 55,
+      "picks": 1,
+      "pct": 0
+    },
+    {
+      "dogId": "d24b",
+      "rank": 55,
+      "picks": 1,
+      "pct": 0
+    },
+    {
+      "dogId": "d27b",
+      "rank": 55,
+      "picks": 1,
+      "pct": 0
+    },
+    {
+      "dogId": "d29a",
+      "rank": 55,
+      "picks": 1,
+      "pct": 0
+    },
+    {
+      "dogId": "d12a",
+      "rank": 62,
+      "picks": 0,
+      "pct": 0
+    },
+    {
+      "dogId": "d22a",
+      "rank": 62,
+      "picks": 0,
+      "pct": 0
+    },
+    {
+      "dogId": "d25b",
+      "rank": 62,
+      "picks": 0,
+      "pct": 0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
+/uploads/
+.env*
+
+# local tooling and source material (kept on disk, not in the repo)
+.[c]laude/
+Dogs PRD.md
+Bracket PRD.md
+dogs seed-data.json
+design/
+shots/

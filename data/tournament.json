@@ -1,0 +1,584 @@
+{
+  "updatedAt": "2026-09-28T12:10:46Z",
+  "sourceUrl": "https://www.instagram.com/fatdogsofdelhi/",
+  "confirmed": 52,
+  "total": 63,
+  "confirmedLabel": "52 of 63 results confirmed",
+  "nextLabel": "Round of 16 is next",
+  "roundCutoffs": [
+    "2026-09-25T09:16:00Z",
+    "2026-09-26T10:20:16Z",
+    "2026-09-28T12:10:46Z",
+    null,
+    null,
+    null
+  ],
+  "lateRoundPoints": [
+    0,
+    0.5,
+    0.5,
+    0,
+    0,
+    0
+  ],
+  "rounds": [
+    {
+      "key": "r64",
+      "label": "Round of 64",
+      "short": "R64",
+      "matchCount": 32,
+      "confirmed": 32,
+      "matches": [
+        {
+          "id": "r1-01",
+          "dogs": [
+            "d01a",
+            "d01b"
+          ],
+          "winner": "d01a"
+        },
+        {
+          "id": "r1-02",
+          "dogs": [
+            "d02a",
+            "d02b"
+          ],
+          "winner": "d02a"
+        },
+        {
+          "id": "r1-03",
+          "dogs": [
+            "d03a",
+            "d03b"
+          ],
+          "winner": "d03b"
+        },
+        {
+          "id": "r1-04",
+          "dogs": [
+            "d04a",
+            "d04b"
+          ],
+          "winner": "d04b"
+        },
+        {
+          "id": "r1-05",
+          "dogs": [
+            "d05a",
+            "d05b"
+          ],
+          "winner": "d05a"
+        },
+        {
+          "id": "r1-06",
+          "dogs": [
+            "d06a",
+            "d06b"
+          ],
+          "winner": "d06b"
+        },
+        {
+          "id": "r1-07",
+          "dogs": [
+            "d07a",
+            "d07b"
+          ],
+          "winner": "d07b"
+        },
+        {
+          "id": "r1-08",
+          "dogs": [
+            "d08a",
+            "d08b"
+          ],
+          "winner": "d08b"
+        },
+        {
+          "id": "r1-09",
+          "dogs": [
+            "d09a",
+            "d09b"
+          ],
+          "winner": "d09b"
+        },
+        {
+          "id": "r1-10",
+          "dogs": [
+            "d10a",
+            "d10b"
+          ],
+          "winner": "d10b"
+        },
+        {
+          "id": "r1-11",
+          "dogs": [
+            "d11a",
+            "d11b"
+          ],
+          "winner": "d11b"
+        },
+        {
+          "id": "r1-12",
+          "dogs": [
+            "d12a",
+            "d12b"
+          ],
+          "winner": "d12b"
+        },
+        {
+          "id": "r1-13",
+          "dogs": [
+            "d13a",
+            "d13b"
+          ],
+          "winner": "d13b"
+        },
+        {
+          "id": "r1-14",
+          "dogs": [
+            "d14a",
+            "d14b"
+          ],
+          "winner": "d14b"
+        },
+        {
+          "id": "r1-15",
+          "dogs": [
+            "d15a",
+            "d15b"
+          ],
+          "winner": "d15a"
+        },
+        {
+          "id": "r1-16",
+          "dogs": [
+            "d16a",
+            "d16b"
+          ],
+          "winner": "d16a"
+        },
+        {
+          "id": "r1-17",
+          "dogs": [
+            "d17a",
+            "d17b"
+          ],
+          "winner": "d17a"
+        },
+        {
+          "id": "r1-18",
+          "dogs": [
+            "d18a",
+            "d18b"
+          ],
+          "winner": "d18b"
+        },
+        {
+          "id": "r1-19",
+          "dogs": [
+            "d19a",
+            "d19b"
+          ],
+          "winner": "d19b"
+        },
+        {
+          "id": "r1-20",
+          "dogs": [
+            "d20a",
+            "d20b"
+          ],
+          "winner": "d20b"
+        },
+        {
+          "id": "r1-21",
+          "dogs": [
+            "d21a",
+            "d21b"
+          ],
+          "winner": "d21a"
+        },
+        {
+          "id": "r1-22",
+          "dogs": [
+            "d22a",
+            "d22b"
+          ],
+          "winner": "d22b"
+        },
+        {
+          "id": "r1-23",
+          "dogs": [
+            "d23a",
+            "d23b"
+          ],
+          "winner": "d23b"
+        },
+        {
+          "id": "r1-24",
+          "dogs": [
+            "d24a",
+            "d24b"
+          ],
+          "winner": "d24b"
+        },
+        {
+          "id": "r1-25",
+          "dogs": [
+            "d25a",
+            "d25b"
+          ],
+          "winner": "d25a"
+        },
+        {
+          "id": "r1-26",
+          "dogs": [
+            "d26a",
+            "d26b"
+          ],
+          "winner": "d26a"
+        },
+        {
+          "id": "r1-27",
+          "dogs": [
+            "d27a",
+            "d27b"
+          ],
+          "winner": "d27a"
+        },
+        {
+          "id": "r1-28",
+          "dogs": [
+            "d28a",
+            "d28b"
+          ],
+          "winner": "d28b"
+        },
+        {
+          "id": "r1-29",
+          "dogs": [
+            "d29a",
+            "d29b"
+          ],
+          "winner": "d29a"
+        },
+        {
+          "id": "r1-30",
+          "dogs": [
+            "d30a",
+            "d30b"
+          ],
+          "winner": "d30b"
+        },
+        {
+          "id": "r1-31",
+          "dogs": [
+            "d31a",
+            "d31b"
+          ],
+          "winner": "d31a"
+        },
+        {
+          "id": "r1-32",
+          "dogs": [
+            "d32a",
+            "d32b"
+          ],
+          "winner": "d32a"
+        }
+      ]
+    },
+    {
+      "key": "r32",
+      "label": "Round of 32",
+      "short": "R32",
+      "matchCount": 16,
+      "confirmed": 16,
+      "matches": [
+        {
+          "id": "r2-01",
+          "dogs": [
+            "d01a",
+            "d02a"
+          ],
+          "winner": "d02a"
+        },
+        {
+          "id": "r2-02",
+          "dogs": [
+            "d03b",
+            "d04b"
+          ],
+          "winner": "d03b"
+        },
+        {
+          "id": "r2-03",
+          "dogs": [
+            "d05a",
+            "d06b"
+          ],
+          "winner": "d06b"
+        },
+        {
+          "id": "r2-04",
+          "dogs": [
+            "d07b",
+            "d08b"
+          ],
+          "winner": "d08b"
+        },
+        {
+          "id": "r2-05",
+          "dogs": [
+            "d09b",
+            "d10b"
+          ],
+          "winner": "d09b"
+        },
+        {
+          "id": "r2-06",
+          "dogs": [
+            "d11b",
+            "d12b"
+          ],
+          "winner": "d12b"
+        },
+        {
+          "id": "r2-07",
+          "dogs": [
+            "d13b",
+            "d14b"
+          ],
+          "winner": "d13b"
+        },
+        {
+          "id": "r2-08",
+          "dogs": [
+            "d15a",
+            "d16a"
+          ],
+          "winner": "d15a"
+        },
+        {
+          "id": "r2-09",
+          "dogs": [
+            "d17a",
+            "d18b"
+          ],
+          "winner": "d17a"
+        },
+        {
+          "id": "r2-10",
+          "dogs": [
+            "d19b",
+            "d20b"
+          ],
+          "winner": "d20b"
+        },
+        {
+          "id": "r2-11",
+          "dogs": [
+            "d21a",
+            "d22b"
+          ],
+          "winner": "d21a"
+        },
+        {
+          "id": "r2-12",
+          "dogs": [
+            "d23b",
+            "d24b"
+          ],
+          "winner": "d23b"
+        },
+        {
+          "id": "r2-13",
+          "dogs": [
+            "d25a",
+            "d26a"
+          ],
+          "winner": "d26a"
+        },
+        {
+          "id": "r2-14",
+          "dogs": [
+            "d27a",
+            "d28b"
+          ],
+          "winner": "d27a"
+        },
+        {
+          "id": "r2-15",
+          "dogs": [
+            "d29a",
+            "d30b"
+          ],
+          "winner": "d29a"
+        },
+        {
+          "id": "r2-16",
+          "dogs": [
+            "d31a",
+            "d32a"
+          ],
+          "winner": "d32a"
+        }
+      ]
+    },
+    {
+      "key": "r16",
+      "label": "Round of 16",
+      "short": "R16",
+      "matchCount": 8,
+      "confirmed": 4,
+      "matches": [
+        {
+          "id": "r3-01",
+          "dogs": [
+            "d02a",
+            "d03b"
+          ],
+          "winner": "d03b"
+        },
+        {
+          "id": "r3-02",
+          "dogs": [
+            "d06b",
+            "d08b"
+          ],
+          "winner": null
+        },
+        {
+          "id": "r3-03",
+          "dogs": [
+            "d09b",
+            "d12b"
+          ],
+          "winner": null
+        },
+        {
+          "id": "r3-04",
+          "dogs": [
+            "d13b",
+            "d15a"
+          ],
+          "winner": "d13b"
+        },
+        {
+          "id": "r3-05",
+          "dogs": [
+            "d17a",
+            "d20b"
+          ],
+          "winner": "d17a"
+        },
+        {
+          "id": "r3-06",
+          "dogs": [
+            "d21a",
+            "d23b"
+          ],
+          "winner": null
+        },
+        {
+          "id": "r3-07",
+          "dogs": [
+            "d26a",
+            "d27a"
+          ],
+          "winner": "d27a"
+        },
+        {
+          "id": "r3-08",
+          "dogs": [
+            "d29a",
+            "d32a"
+          ],
+          "winner": null
+        }
+      ]
+    },
+    {
+      "key": "qf",
+      "label": "Quarter-finals",
+      "short": "QF",
+      "matchCount": 4,
+      "confirmed": 0,
+      "matches": [
+        {
+          "id": "r4-01",
+          "dogs": [
+            "d03b",
+            null
+          ],
+          "winner": null
+        },
+        {
+          "id": "r4-02",
+          "dogs": [
+            null,
+            "d13b"
+          ],
+          "winner": null
+        },
+        {
+          "id": "r4-03",
+          "dogs": [
+            "d17a",
+            null
+          ],
+          "winner": null
+        },
+        {
+          "id": "r4-04",
+          "dogs": [
+            "d27a",
+            null
+          ],
+          "winner": null
+        }
+      ]
+    },
+    {
+      "key": "sf",
+      "label": "Semi-finals",
+      "short": "SF",
+      "matchCount": 2,
+      "confirmed": 0,
+      "matches": [
+        {
+          "id": "r5-01",
+          "dogs": [
+            null,
+            null
+          ],
+          "winner": null
+        },
+        {
+          "id": "r5-02",
+          "dogs": [
+            null,
+            null
+          ],
+          "winner": null
+        }
+      ]
+    },
+    {
+      "key": "final",
+      "label": "Final",
+      "short": "Final",
+      "matchCount": 1,
+      "confirmed": 0,
+      "matches": [
+        {
+          "id": "r6-01",
+          "dogs": [
+            null,
+            null
+          ],
+          "winner": null
+        }
+      ]
+    }
+  ]
+}

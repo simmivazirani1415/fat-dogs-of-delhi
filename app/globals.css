@@ -1,0 +1,450 @@
+@import "tailwindcss";
+
+/* viewport-height variants (e.g. the Add-a-dog modal fits laptop screens without scrolling) */
+@custom-variant short (@media (max-height: 880px));
+@custom-variant tiny (@media (max-height: 720px));
+
+/* ------------------------------------------------------------------ tokens */
+:root {
+  --bg: #fbf6ef;
+  --bg-soft: #f5ece1;
+  --surface: #fffdf9;
+  --border: #efe3d3;
+  --ink: #24150d;
+  --ink-2: #6b5547;
+  --ink-3: #7d6a5c; /* darkened for AA text contrast (4.8:1 on --bg) */
+  --yellow: #fcd877;
+  --yellow-hover: #facc4e;
+  --yellow-soft: #fef0c7;
+  --orange: #e5860b; /* brand orange: fills, icons, decoration */
+  --orange-display: #c46f00; /* large display text, ≥ 3:1 on cream */
+  --orange-text: #a85a00; /* body-size text, ≥ 4.5:1 on cream */
+  --silver: #e6dfd8;
+  --bronze-soft: #f7d9cb;
+  --bronze: #c9785a;
+  --brown-bar: #6b4330;
+  --violet-soft: #ece8fb;
+  --violet: #3a2a8f;
+  --ig-gradient: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+
+  --elev-soft: 0 8px 24px -12px rgba(120, 72, 20, 0.18);
+  --elev-lift: 0 16px 32px -12px rgba(120, 72, 20, 0.28);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-hover: 150ms;
+  --dur-state: 250ms;
+  --dur-enter: 450ms;
+  --dur-count: 900ms;
+
+  --gutter: 16px;
+}
+@media (min-width: 768px) {
+  :root {
+    --gutter: 48px;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-soft: var(--bg-soft);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-yellow: var(--yellow);
+  --color-yellow-hover: var(--yellow-hover);
+  --color-yellow-soft: var(--yellow-soft);
+  --color-orange: var(--orange-text);
+  --color-orange-brand: var(--orange);
+  --color-silver: var(--silver);
+  --color-bronze-soft: var(--bronze-soft);
+  --color-bronze: var(--bronze);
+  --color-brown-bar: var(--brown-bar);
+  --color-violet-soft: var(--violet-soft);
+  --color-violet: var(--violet);
+
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-soft: var(--elev-soft);
+  --shadow-lift: var(--elev-lift);
+  --ease-out-soft: var(--ease-out);
+
+  --radius-card: 24px;
+  --radius-modal: 32px;
+  --radius-input: 14px;
+
+  --breakpoint-nav: 56.25rem; /* 900px — navbar collapses below this */
+  --breakpoint-wide: 87.5rem; /* 1400px — navbar shows social handles */
+}
+
+/* ------------------------------------------------------------------ base */
+html {
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Every interactive element gets a visible focus ring. In a layer so utilities can override it. */
+@layer base {
+  :where(a, button, input, textarea, select, summary, [tabindex]):focus-visible {
+    outline: 3px solid var(--ink);
+    outline-offset: 3px;
+    border-radius: 999px;
+  }
+}
+
+@layer components {
+  .page-shell {
+    width: 100%;
+    max-width: 1440px;
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+  .display {
+    font-family: var(--font-display);
+    font-weight: 850;
+    letter-spacing: -0.03em;
+    line-height: 0.95;
+  }
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* ------------------------------------------------------------------ keyframes */
+@keyframes paw-wiggle {
+  0% { transform: rotate(0); }
+  30% { transform: rotate(-12deg); }
+  65% { transform: rotate(12deg); }
+  100% { transform: rotate(0); }
+}
+@keyframes paw-hop {
+  0%, 100% { transform: translateY(0); }
+  45% { transform: translateY(-4px); }
+}
+@keyframes shutter {
+  0% { transform: scale(1); }
+  40% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+@keyframes sound-ring {
+  from { transform: scale(1); opacity: 0.55; }
+  to { transform: scale(1.9); opacity: 0; }
+}
+@keyframes hero-float {
+  0%, 100% { transform: translateY(0); }
+  25% { transform: translateY(-6px); }
+  75% { transform: translateY(6px); }
+}
+/* head-bob while the music plays: one full sway per two beats (~2.1 beats/s) */
+@keyframes hero-bob {
+  0%, 100% { transform: rotate(-4deg) translateY(3px); }
+  50% { transform: rotate(4deg) translateY(-3px); }
+}
+@keyframes label-bounce {
+  0%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-8px); }
+  70% { transform: translateY(2px); }
+}
+@keyframes paw-print {
+  0% { opacity: 0.55; transform: translate(-50%, -50%) rotate(var(--r)) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -50%) rotate(var(--r)) scale(0.8); }
+}
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(252, 216, 119, 0); }
+  30% { box-shadow: 0 0 0 10px rgba(252, 216, 119, 0.85); }
+}
+@keyframes toast-in {
+  from { transform: translate(-50%, 16px); opacity: 0; }
+  to { transform: translate(-50%, 0); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* deep-link highlight: yellow glow pulses twice */
+.is-glowing {
+  animation: glow-pulse 900ms var(--ease-out) 2;
+}
+li > .is-glowing {
+  border-radius: 18px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .is-glowing {
+    animation: none !important;
+    box-shadow: 0 0 0 6px rgba(252, 216, 119, 0.9);
+  }
+}
+
+/* Source dog photos are circular crops on a yellow square: in square / rounded frames,
+   zoom by √2 so the circle fills the frame and the yellow corners never show. */
+.dog-photo-fill {
+  scale: 1.42;
+}
+@keyframes tail-wag {
+  from { transform: rotate(-25deg); }
+  to { transform: rotate(25deg); }
+}
+
+/* ------------------------------------------------------------------ map pins */
+.dog-pin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: grab;
+  filter: drop-shadow(0 6px 10px rgba(120, 72, 20, 0.3));
+}
+.dog-pin:active {
+  cursor: grabbing;
+}
+.dog-pin__photo {
+  display: block;
+  width: 62px;
+  height: 62px;
+  border-radius: 999px;
+  border: 4px solid var(--yellow);
+  background: var(--yellow);
+  overflow: hidden;
+}
+.dog-pin__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+.dog-pin__tail {
+  width: 0;
+  height: 0;
+  margin-top: -2px;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 12px solid var(--yellow);
+}
+.dog-pin__dot {
+  width: 10px;
+  height: 10px;
+  margin-top: 4px;
+  border-radius: 999px;
+  background: var(--yellow);
+  border: 2px solid #fff;
+}
+
+/* ------------------------------------------------------------------ Dog map markers + popup */
+.dog-marker {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  cursor: pointer;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 999px;
+}
+/* never transform the marker root: MapLibre positions it with an inline transform, and any scale on
+   it would also scale that translation (the marker would jump away from the pointer) */
+.dog-marker:hover,
+.dog-marker:focus-visible {
+  z-index: 3;
+}
+.dog-marker__photo {
+  transition: scale 150ms var(--ease-out);
+}
+.dog-marker:hover .dog-marker__photo,
+.dog-marker:focus-visible .dog-marker__photo {
+  scale: 1.15;
+}
+.dog-marker__photo {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 999px;
+  border: 3px solid #fff;
+  background: var(--yellow-soft);
+  box-shadow: 0 6px 14px -6px rgba(120, 72, 20, 0.45);
+}
+.is-cluster .dog-marker__photo {
+  width: 60px;
+  height: 60px;
+}
+.dog-marker__photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+  object-fit: cover;
+  pointer-events: none;
+}
+/* tournament photos are circles on a yellow square: zoom so the circle fills the frame */
+.dog-marker__photo img.is-circle-crop,
+.dog-popup__media img.is-circle-crop {
+  scale: 1.42;
+}
+.dog-marker__photo:has(img.is-circle-crop) {
+  overflow: hidden;
+}
+.dog-marker__badge {
+  position: absolute;
+  right: -5px;
+  bottom: -3px;
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+.dog-marker__count {
+  position: absolute;
+  top: 50%;
+  right: calc(100% - 6px);
+  translate: 0 -60%;
+  display: grid;
+  place-items: center;
+  min-width: 34px;
+  height: 34px;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: var(--yellow);
+  color: var(--ink);
+  font: 700 15px/1 var(--font-outfit);
+  box-shadow: 0 4px 10px -4px rgba(120, 72, 20, 0.4);
+}
+.dog-marker__label {
+  margin-top: 3px;
+  padding: 0 4px;
+  font: 500 12px/1.2 var(--font-outfit);
+  color: var(--ink);
+  white-space: nowrap;
+  text-shadow: 0 0 3px #fbf6ef, 0 0 3px #fbf6ef, 0 0 3px #fbf6ef;
+}
+.dog-marker__label::before {
+  content: "•";
+  margin-right: 3px;
+}
+.dog-marker__tip {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  translate: -50% 0;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6px 10px;
+  border-radius: 12px;
+  background: var(--ink);
+  color: var(--bg);
+  font: 400 12px/1.3 var(--font-outfit);
+  white-space: nowrap;
+}
+.dog-marker__tip strong {
+  font-weight: 700;
+  font-size: 13px;
+}
+.dog-marker:hover .dog-marker__tip,
+.dog-marker:focus-visible .dog-marker__tip {
+  display: flex;
+}
+@keyframes pin-bounce {
+  0%, 100% { transform: translateY(0); }
+  35% { transform: translateY(-14px); }
+  60% { transform: translateY(0); }
+  78% { transform: translateY(-5px); }
+}
+.dog-marker.is-bouncing {
+  z-index: 4;
+}
+.dog-marker.is-bouncing .dog-marker__photo {
+  animation: pin-bounce 800ms var(--ease-out) infinite;
+  border-color: var(--yellow);
+}
+
+.dog-popup-wrap .maplibregl-popup-content {
+  padding: 10px;
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: var(--elev-lift);
+  font-family: var(--font-outfit);
+}
+.dog-popup-wrap .maplibregl-popup-close-button {
+  top: 14px;
+  right: 14px;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  font-size: 18px;
+  line-height: 1;
+}
+.dog-popup__media {
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  border-radius: 14px;
+  background: var(--bg-soft);
+}
+.dog-popup__media img,
+.dog-popup__media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.dog-popup__name {
+  margin: 10px 4px 0;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--ink);
+}
+.dog-popup__place,
+.dog-popup__meta {
+  margin: 2px 4px 0;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+.dog-popup__handle {
+  display: block;
+  margin: 6px 4px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.dog-popup__cta {
+  display: block;
+  margin: 10px 0 2px;
+  padding: 9px 12px;
+  border-radius: 999px;
+  background: var(--yellow);
+  color: var(--ink);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Orange contrast: text uses the darker --orange-text (via text-orange); headings get --orange-display;
+   decorative glyphs (aria-hidden, svg icons) keep the bright brand orange. */
+.display .text-orange,
+.display.text-orange,
+[aria-hidden="true"].display.text-orange {
+  color: var(--orange-display);
+}
+[aria-hidden="true"].text-orange,
+svg.text-orange,
+.text-orange > svg {
+  color: var(--orange);
+}
